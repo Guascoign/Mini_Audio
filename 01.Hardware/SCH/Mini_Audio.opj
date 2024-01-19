@@ -1,6 +1,6 @@
 (ExpressProject "Mini_Audio"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[01/18/24]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[01/19/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -106,6 +106,46 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (CON_2
+      (FullPartName "CON_2.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (CON_3
+      (FullPartName "CON_3.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (TVS_Dual
+      (FullPartName "TVS_Dual.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (HT7550
+      (FullPartName "HT7550.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
+      (DeviceIndex "0"))
+    (FB
+      (FullPartName "FB.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL_F
+      (FullPartName "CRYSTAL_F.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (BP1048B2
+      (FullPartName "BP1048B2.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
+      (DeviceIndex "0"))
     (ANT
       (FullPartName "ANT.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
@@ -120,14 +160,6 @@
       (DeviceIndex "0"))
     (RP2
       (FullPartName "RP2.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL_F
-      (FullPartName "CRYSTAL_F.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
     (CRYSTAL_D
@@ -172,26 +204,6 @@
     (JW3651
       (FullPartName "JW3651.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
-      (DeviceIndex "0"))
-    (HM1160
-      (FullPartName "HM1160.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (PAM8610TR
-      (FullPartName "PAM8610TR.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (DW01
-      (FullPartName "DW01.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (MOSFET-N_Dual
-      (FullPartName "MOSFET-N_Dual.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "1"))
-    (TC4056A
-      (FullPartName "TC4056A.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "15291")
   (GlobalState
@@ -201,19 +213,19 @@
       (Path "Design Resources" ".\mini_audio.dsn" "Mini_Audio")
       (Path "Design Resources" ".\mini_audio.dsn" "Design Cache")
       (Path "Outputs")
-      (Select "Design Resources" ".\mini_audio.dsn" "Mini_Audio"))
+      (Select "Design Resources" ".\mini_audio.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 452 0 891"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 300 0 891"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1980 28 937")
-        (Scroll "0 0")
-        (Zoom "114")
+        (Placement "44 0 1 -1 -1 5 28 5 1903 28 937")
+        (Scroll "591 2421")
+        (Zoom "228")
         (Occurrence "/"))
       (Path "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\SCH\MINI_AUDIO.DSN")
       (Schematic "Mini_Audio")
