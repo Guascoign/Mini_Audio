@@ -1,17 +1,17 @@
-(ExpressProject "Mini_Audio"
+(ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[01/19/24]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[01/23/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
     ("Allegro Netlist Directory" "allegro")
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
-    (NoModify)
-    (File ".\mini_audio.dsn"
+    (File ".\power.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "TRUE")
@@ -66,13 +66,13 @@
     (DRC_Run_Simulation_Rules "TRUE")
     (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
     (DRC_Run_Custom_Rules "FALSE")
-    (DRC_Report_File "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\SCH\MINI_AUDIO.DRC")
+    (DRC_Report_File "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\POWER\SCH\POWER.DRC")
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" ".\allegro\mini_audio.brd")
+    ("Allegro Netlist Output Board File" "allegro\POWER.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -81,9 +81,27 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Layout")
   (Folder "Outputs"
+    (File ".\power.drc"
+      (Type "Report"))
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
       (DisplayName "pstxnet.dat"))
@@ -92,9 +110,7 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat"))
-    (File ".\mini_audio.drc"
-      (Type "Report")))
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -105,129 +121,73 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\power.dsn")
+      (Path "Design Resources" ".\power.dsn" "POWER")
+      (Path "Outputs")
+      (Select "Design Resources" ".\power.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 407 0 986"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1948 28 1032")
+        (Scroll "450 0")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\POWER\SCH\POWER.DSN")
+      (Schematic "POWER")
+      (Page "PAGE1")))
   (PartMRUSelector
     (CON_2
       (FullPartName "CON_2.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (CON_3
-      (FullPartName "CON_3.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (TVS_Dual
-      (FullPartName "TVS_Dual.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (HT7550
-      (FullPartName "HT7550.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
-      (DeviceIndex "0"))
-    (FB
-      (FullPartName "FB.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL_F
-      (FullPartName "CRYSTAL_F.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (BP1048B2
-      (FullPartName "BP1048B2.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (ANT
-      (FullPartName "ANT.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (CON_4
-      (FullPartName "CON_4.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
-      (DeviceIndex "0"))
-    (CE
-      (FullPartName "CE.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (RP2
-      (FullPartName "RP2.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL_D
-      (FullPartName "CRYSTAL_D.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (MicroSD
-      (FullPartName "MicroSD.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
-      (DeviceIndex "0"))
-    (BATTERY
-      (FullPartName "BATTERY.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (SK12D07VG4
+      (FullPartName "SK12D07VG4.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
       (DeviceIndex "0"))
     (NTC
       (FullPartName "NTC.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (KEY_D_OPEN
-      (FullPartName "KEY_D_OPEN.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
-    (TYPE-C_12P_SMD
-      (FullPartName "TYPE-C_12P_SMD.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
-    ("TYPE-C 12P SMD Short"
-      (FullPartName "TYPE-C 12P SMD Short.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+    (RU30L30M-VB
+      (FullPartName "RU30L30M-VB.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
       (DeviceIndex "0"))
-    (AC6955F
-      (FullPartName "AC6955F.Normal")
+    (HUSB238
+      (FullPartName "HUSB238.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
       (DeviceIndex "0"))
-    (JW3651
-      (FullPartName "JW3651.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\POWER.OLB")
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (CON_7
+      (FullPartName "CON_7.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+      (DeviceIndex "0"))
+    (BQ24074RGTR
+      (FullPartName "BQ24074RGTR.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
+      (DeviceIndex "0"))
+    (CH224K
+      (FullPartName "CH224K.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "15291")
-  (GlobalState
-    (FileView
-      (Path "Design Resources")
-      (Path "Design Resources" ".\mini_audio.dsn")
-      (Path "Design Resources" ".\mini_audio.dsn" "Mini_Audio")
-      (Path "Design Resources" ".\mini_audio.dsn" "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources" ".\mini_audio.dsn"))
-    (HierarchyView)
-    (Doc
-      (Type "COrCapturePMDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 300 0 891"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1903 28 937")
-        (Scroll "591 2421")
-        (Zoom "228")
-        (Occurrence "/"))
-      (Path "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\SCH\MINI_AUDIO.DSN")
-      (Schematic "Mini_Audio")
-      (Page "PAGE1")))
   (ISPCBBASICLICENSE "false"))

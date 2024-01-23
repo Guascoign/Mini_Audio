@@ -1,0 +1,91 @@
+\t (00:00:01) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Jan 23 18:08:14 2024
+\t (00:00:01)         Host=ITX User=15291 Pid=8100 CPUs=8
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\POWER\PCB\POWER.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:03) Loading skillExt.cxt 
+   (00:00:03) function addMetadata redefined
+   (00:00:03) function addIndent redefined
+   (00:00:03) function addLine redefined
+   (00:00:03) function addCircle redefined
+   (00:00:03) function addArc redefined
+   (00:00:03) function parseSegment redefined
+   (00:00:03) function addText redefined
+   (00:00:03) function addVia redefined
+   (00:00:03) function lineToSvgPath redefined
+   (00:00:03) function arcToSvgPath redefined
+   (00:00:03) function textToSvgPath redefined
+   (00:00:03) function createSvgPath redefined
+   (00:00:04) function createZone redefined
+   (00:00:04) function addBoardGeometry redefined
+   (00:00:04) function rotateVector redefined
+   (00:00:04) function getBboxSize redefined
+   (00:00:04) function figureToSvgPath redefined
+   (00:00:04) function addPad redefined
+   (00:00:04) function addComponentTable redefined
+   (00:00:04) function addFootprint redefined
+   (00:00:04) function addSymbols redefined
+   (00:00:04) function addCopper redefined
+   (00:00:04) function addNets redefined
+   (00:00:04) function writeJsonFile redefined
+   (00:00:04) function getVariantInfo redefined
+   (00:00:04) function exportJson redefined
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: D:/Projects/Mini_Audio/01.Hardware/POWER/PCB/POWER.brd
+\i (00:00:07) trapsize 3377
+\i (00:00:07) trapsize 3427
+\i (00:00:07) trapsize 3432
+\i (00:00:07) trapsize 3432
+\i (00:00:07) placementedit 
+\t (00:00:07) axlTrigger disabled!
+\t (00:00:07) axlTrigger disabled!
+\i (00:00:07) pick grid -27.3938 5.0893
+\t (00:00:07) last pick:  -27.3900 5.0900
+\i (00:00:09) design sync back_annotate 
+\i (00:00:10) QtSignal DesignSyncDialog DesignSyncDialog closed
+\i (00:00:10) placementedit 
+\i (00:00:13) netin 
+\i (00:00:15) setwindow form.niparams
+\i (00:00:15) FORM niparams import  
+\t (00:00:15) Starting Cadence Logic Import...
+\t (00:00:15) Opening existing design...
+\i (00:00:15) setwindow form.mini
+\i (00:00:15) FORM mini tree  'Components by refdes' 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) trapsize 3432
+\i (00:00:16) placementedit 
+\i (00:00:18) setwindow form.mini
+\i (00:00:18) FORM mini tree  J1 'Components by refdes' 
+\i (00:00:18) FORM mini tree 'MULTISEL YES' J1 'Components by refdes' 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) place manual 
+\t (00:00:18) Placing J1 / CON_4_XH_254-4P_XH2.54 4P_E09J008 / XH_254-4P on Top.
+\i (00:00:19) pick grid -46.6114 15.1099
+\t (00:00:19) last pick:  -46.6100 15.1100
+\i (00:00:19) placementedit 
+\i (00:00:20) prepopup -39.1303 21.0810
+\i (00:00:20) pick grid -35.7672 25.2677
+\t (00:00:20) last pick:  -35.7700 25.2700
+\i (00:00:21) save 
+\i (00:00:21) fillin yes 
+\i (00:00:21) placementedit 
+\i (00:00:21) pick grid 36.0242 2.6871
+\t (00:00:21) last pick:  36.0200 2.6900
+\i (00:00:22) roam start
+\i (00:00:22) roam x -32
+\i (00:00:22) roam y -16
+\t (00:00:22) axlTrigger disabled!
+\i (00:00:22) roam end
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -39.3362 47.8484
+\i (00:00:22) trapsize 1716
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out -6.7349 39.7496
+\i (00:00:23) trapsize 3432
+\i (00:00:31) pick grid 58.5362 61.3006
+\t (00:00:31) last pick:  58.5400 61.3000
+\i (00:00:32) exit 
+\t (00:00:32)     Journal end - Tue Jan 23 18:08:45 2024

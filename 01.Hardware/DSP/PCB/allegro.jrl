@@ -1,0 +1,136 @@
+\t (00:00:01) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Jan 23 18:07:23 2024
+\t (00:00:01)         Host=ITX User=15291 Pid=11884 CPUs=8
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\DSP\PCB\DSP.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:04) Loading skillExt.cxt 
+   (00:00:04) function addMetadata redefined
+   (00:00:04) function addIndent redefined
+   (00:00:04) function addLine redefined
+   (00:00:04) function addCircle redefined
+   (00:00:04) function addArc redefined
+   (00:00:04) function parseSegment redefined
+   (00:00:04) function addText redefined
+   (00:00:04) function addVia redefined
+   (00:00:04) function lineToSvgPath redefined
+   (00:00:04) function arcToSvgPath redefined
+   (00:00:04) function textToSvgPath redefined
+   (00:00:04) function createSvgPath redefined
+   (00:00:04) function createZone redefined
+   (00:00:04) function addBoardGeometry redefined
+   (00:00:04) function rotateVector redefined
+   (00:00:04) function getBboxSize redefined
+   (00:00:04) function figureToSvgPath redefined
+   (00:00:04) function addPad redefined
+   (00:00:04) function addComponentTable redefined
+   (00:00:04) function addFootprint redefined
+   (00:00:04) function addSymbols redefined
+   (00:00:04) function addCopper redefined
+   (00:00:04) function addNets redefined
+   (00:00:04) function writeJsonFile redefined
+   (00:00:04) function getVariantInfo redefined
+   (00:00:04) function exportJson redefined
+\t (00:00:06) Opening existing design...
+\d (00:00:07) Design opened: D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/DSP.brd
+\i (00:00:07) trapsize 1846
+\i (00:00:07) trapsize 1874
+\i (00:00:07) trapsize 1876
+\i (00:00:07) trapsize 1876
+\i (00:00:07) placementedit 
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 64.0725 17.5385
+\i (00:00:07) trapsize 3753
+\t (00:00:07) axlTrigger disabled!
+\t (00:00:07) axlTrigger disabled!
+\i (00:00:08) pick grid 105.5015 21.6663
+\t (00:00:08) last pick:  105.5000 21.6700
+\i (00:00:11) netin 
+\i (00:00:12) setwindow form.niparams
+\i (00:00:12) FORM niparams browse  
+\i (00:00:17) fillin "D:/Projects/Mini_Audio/01.Hardware/DSP/SCH/allegro"
+\i (00:00:18) FORM niparams import  
+\t (00:00:18) Starting Cadence Logic Import...
+\t (00:00:19) Opening existing design...
+\i (00:00:19) setwindow form.mini
+\i (00:00:19) FORM mini tree  'Components by refdes' 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) trapsize 3753
+\i (00:00:20) placementedit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 61.8210 12.9602
+\i (00:00:21) trapsize 1876
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 62.1212 12.7351
+\i (00:00:21) trapsize 938
+\i (00:00:22) roam start
+\i (00:00:22) roam x 16
+\i (00:00:22) roam x 80
+\i (00:00:22) roam y -16
+\i (00:00:22) roam x 48
+\i (00:00:22) roam end
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 64.7912 16.9300
+\i (00:00:22) trapsize 1876
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 58.0739 18.8813
+\i (00:00:22) trapsize 3753
+\i (00:00:23) save 
+\i (00:00:24) fillin yes 
+\i (00:00:24) placementedit 
+\t (00:00:25) axlTrigger disabled!
+\i (00:00:27) quickplace 
+\i (00:00:29) setwindow form.quickplc
+\i (00:00:29) FORM quickplc place  
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 4.1863 44.6994
+\i (00:00:30) trapsize 7505
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 17.3955 60.7606
+\i (00:00:30) trapsize 3753
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 16.3447 53.8558
+\i (00:00:31) trapsize 1876
+\i (00:00:32) setwindow form.quickplc
+\i (00:00:32) FORM quickplc done  
+\i (00:00:32) setwindow pcb
+\i (00:00:32) placementedit 
+\i (00:00:32) pick grid 1.7845 41.2095
+\t (00:00:32) last pick:  1.7800 41.2100
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 6.3627 44.9246
+\i (00:00:33) trapsize 3753
+\i (00:00:34) save 
+\i (00:00:35) fillin yes 
+\i (00:00:35) placementedit 
+\i (00:00:35) pick grid 43.5138 32.5409
+\t (00:00:35) last pick:  43.5100 32.5400
+\t (00:00:35) axlTrigger disabled!
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 108.4341 19.3317
+\i (00:00:39) trapsize 1876
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 95.3375 15.8793
+\i (00:00:39) trapsize 938
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 98.5835 15.7668
+\i (00:00:41) trapsize 1876
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 106.0886 29.0511
+\i (00:00:42) trapsize 3753
+\i (00:00:42) exit 
+\t (00:00:43)     Journal end - Tue Jan 23 18:08:04 2024
