@@ -4,33 +4,16 @@
 (                                                                     )
 (    Drawing          : DSP.brd                                       )
 (    Software Version : 17.4S037                                      )
-(    Date/Time        : Tue Jan 23 18:07:49 2024                      )
+(    Date/Time        : Wed Jan 24 15:10:51 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 State: Placing on layer TOP
 
-         Placed symbol:  R8 / R_R0603_18K_E01R001 / R0603 at (1.4783 50.7772)
-         Placed symbol:  C24 / C_C0603_0.1UF_E02C001 / C0603 at (4.2317 50.7772)
-         Placed symbol:  C4 / C_C0603_0.1UF_E02C001 / C0603 at (6.9851 50.7772)
-         Placed symbol:  C11 / C_C0603_10UF_E02C001 / C0603 at (9.7385 50.7772)
-         Placed symbol:  C23 / C_C0603_10UF_E02C001 / C0603 at (12.4919 50.7772)
-         Placed symbol:  C3 / C_C0603_10UF_E02C001 / C0603 at (15.2453 50.7772)
-         Placed symbol:  C5 / C_C0603_10UF_E02C001 / C0603 at (17.9987 50.7772)
-         Placed symbol:  C6 / C_C0603_10UF_E02C001 / C0603 at (20.7521 50.7772)
-         Placed symbol:  C10 / C_C0603_1UF_E02C001 / C0603 at (23.5055 50.7772)
-         Placed symbol:  C15 / C_C0603_1UF_E02C001 / C0603 at (26.2589 50.7772)
-         Placed symbol:  C25 / C_C0603_1UF_E02C001 / C0603 at (29.0123 50.7772)
-         Placed symbol:  C26 / C_C0603_1UF_E02C001 / C0603 at (31.7657 50.7772)
-         Placed symbol:  C27 / C_C0603_1UF_E02C001 / C0603 at (34.5191 50.7772)
-         Placed symbol:  C28 / C_C0603_1UF_E02C001 / C0603 at (37.2725 50.7772)
-         Placed symbol:  C8 / C_C0603_1UF_E02C001 / C0603 at (40.0259 50.7772)
-         Placed symbol:  C9 / C_C0603_1UF_E02C001 / C0603 at (42.7793 50.7772)
-         Placed symbol:  S3 / KEY_D_OPEN_KEY_SMD_NEXT/VOL+_E10S002 / KEY_SMD at (47.1101 51.7805)
 
 
-Placed 17 of 17 applicable (17 total) symbols.
+Placed 0 of 0 applicable (0 total) symbols.
 
 -----------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Jan-23-2024 at 18:06:00 }
+{ Using PSTWRITER 17.4.0 d001Jan-24-2024 at 11:36:09 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='POWER';
@@ -221,9 +221,9 @@ PART_NAME
  J3 'CON_7_FPC_05-5P_FPC_5P_E09J028':;
 
 SECTION_NUMBER 1
- '@POWER.POWER(SCH_1):INS866547@HEADDER.CON_7.NORMAL(CHIPS)':
- C_PATH='@power.power(sch_1):ins866547@headder.\con_7.normal\(chips)',
- P_PATH='@power.power(sch_1):page1_ins866547@headder.\con_7.normal\(chips)',
+ '@POWER.POWER(SCH_1):INS881719@HEADDER.CON_7.NORMAL(CHIPS)':
+ C_PATH='@power.power(sch_1):ins881719@headder.\con_7.normal\(chips)',
+ P_PATH='@power.power(sch_1):page1_ins881719@headder.\con_7.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -561,6 +561,16 @@ SECTION_NUMBER 1
  '@POWER.POWER(SCH_1):INS865442@IC.BQ24074RGTR.NORMAL(CHIPS)':
  C_PATH='@power.power(sch_1):ins865442@ic.\bq24074rgtr.normal\(chips)',
  P_PATH='@power.power(sch_1):page1_ins865442@ic.\bq24074rgtr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Z1 'TVS_DUAL_SOT-523_RCLAMP0502B_E04D012':;
+
+SECTION_NUMBER 1
+ '@POWER.POWER(SCH_1):INS880946@BASIC.TVS_DUAL.NORMAL(CHIPS)':
+ C_PATH='@power.power(sch_1):ins880946@basic.\tvs_dual.normal\(chips)',
+ P_PATH='@power.power(sch_1):page1_ins880946@basic.\tvs_dual.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

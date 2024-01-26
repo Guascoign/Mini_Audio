@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Jan-23-2024 at 18:06:00}
+{ Using PSTWRITER 17.4.0 d001Jan-24-2024 at 11:36:09}
 primitive 'BATTERY_XH_254-2P_18350_E09J003';
   pin
     '1':
@@ -776,6 +776,25 @@ primitive 'BQ24074RGTR_QFN16-EP-3X3_BQ24074RGTR_E08U062';
     JEDEC_TYPE='QFN16-EP-3x3';
     VALUE='BQ24074RGTR';
     PART_NUMBER='E08U062';
+  end_body;
+end_primitive;
+primitive 'TVS_DUAL_SOT-523_RCLAMP0502B_E04D012';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='TVS_Dual';
+    JEDEC_TYPE='SOT-523';
+    VALUE='RCLAMP0502B';
+    PART_NUMBER='E04D012';
   end_body;
 end_primitive;
 END.

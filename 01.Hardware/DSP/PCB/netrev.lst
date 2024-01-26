@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DSP.brd                                       )
 (    Software Version : 17.4S037                                      )
-(    Date/Time        : Tue Jan 23 18:07:40 2024                      )
+(    Date/Time        : Wed Jan 24 15:33:15 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'D:/Projects/Mini_Audio/01.Hardware/DSP/PCB'
 Old design name:             'D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/DSP.brd'
 New design name:             'D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/DSP.brd'
 
-CmdLine: netrev -$ -i D:/Projects/Mini_Audio/01.Hardware/DSP/SCH/allegro -y 1 -h -q netrev_constraint_report.xml D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/#Taaaaak11884.tmp
+CmdLine: netrev -$ -i D:/Projects/Mini_Audio/01.Hardware/DSP/SCH/allegro -y 1 -h -q netrev_constraint_report.xml D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/#Taaaace28184.tmp
 
 ------ Preparing to read pst files ------
 
@@ -62,7 +62,7 @@ PADPATH =  D:/Cadence/LIB/DATABASE/PCB/padstack
 ------ Summary Statistics ------
 
 
-netrev run on Jan 23 18:07:40 2024
+netrev run on Jan 24 15:33:15 2024
    DESIGN NAME : 'DSP'
    PACKAGING ON May 19 2023 23:44:21
 
@@ -87,6 +87,6 @@ netrev run on Jan 23 18:07:40 2024
  No oversight detected
  No warning detected
 
-cpu time      0:00:53
+cpu time      0:00:47
 elapsed time  0:00:00
 

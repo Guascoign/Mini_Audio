@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Jan-23-2024 at 18:06:33}
+{ Using PSTWRITER 17.4.0 d001Jan-24-2024 at 15:33:10}
 primitive 'ANT_ANT-SMD-2X5_1_AN2051-245_E09J065';
   pin
     '1':
@@ -126,6 +126,22 @@ primitive 'C_C0603_12PF(NC)_E02C001';
     JEDEC_TYPE='c0603';
     VALUE='12pF(NC)';
     PART_NUMBER='E02C001';
+  end_body;
+end_primitive;
+primitive 'C_C0805_10UF_E02C015';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='c0805';
+    VALUE='10uF';
+    PART_NUMBER='E02C015';
   end_body;
 end_primitive;
 primitive 'DIODE SCHOTTKY_SOD-123FL_DSK34_E04D016';
