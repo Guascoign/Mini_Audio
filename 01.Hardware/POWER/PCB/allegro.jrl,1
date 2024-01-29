@@ -1,9 +1,0 @@
-\t (00:51:56) allegro 17.4 S037 Windows SPB 64-bit Edition
-\t (00:51:56)     Journal start - Wed Jan 24 12:05:39 2024
-\t (00:51:56)         Host=ITX User=15291 Pid=22288 CPUs=8
-\t (00:51:56) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\POWER\PCB\POWER.brd
-\t (00:51:56) 
-\i (00:51:56) prepopup -140.280 1048.003
-\i (00:51:56) done 
-\i (00:51:56) placementedit 
-\t (00:51:56)     Journal end - Wed Jan 24 12:05:40 2024
