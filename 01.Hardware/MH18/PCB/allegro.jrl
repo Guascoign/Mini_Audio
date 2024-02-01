@@ -1,0 +1,78 @@
+\t (00:00:01) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Feb  1 18:31:37 2024
+\t (00:00:01)         Host=ITX User=15291 Pid=29136 CPUs=8
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\MH18\PCB\MH18.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:02) Loading skillExt.cxt 
+   (00:00:02) function addMetadata redefined
+   (00:00:02) function addIndent redefined
+   (00:00:02) function addLine redefined
+   (00:00:02) function addCircle redefined
+   (00:00:02) function addArc redefined
+   (00:00:02) function parseSegment redefined
+   (00:00:02) function addText redefined
+   (00:00:02) function addVia redefined
+   (00:00:02) function lineToSvgPath redefined
+   (00:00:02) function arcToSvgPath redefined
+   (00:00:02) function textToSvgPath redefined
+   (00:00:02) function createSvgPath redefined
+   (00:00:02) function createZone redefined
+   (00:00:02) function addBoardGeometry redefined
+   (00:00:02) function rotateVector redefined
+   (00:00:02) function getBboxSize redefined
+   (00:00:02) function figureToSvgPath redefined
+   (00:00:02) function addPad redefined
+   (00:00:02) function addComponentTable redefined
+   (00:00:02) function addFootprint redefined
+   (00:00:02) function addSymbols redefined
+   (00:00:02) function addCopper redefined
+   (00:00:02) function addNets redefined
+   (00:00:02) function writeJsonFile redefined
+   (00:00:02) function getVariantInfo redefined
+   (00:00:02) function exportJson redefined
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: D:/Projects/Mini_Audio/01.Hardware/MH18/PCB/MH18.brd
+\i (00:00:05) trapsize 11742
+\i (00:00:05) trapsize 11918
+\i (00:00:05) trapsize 11933
+\i (00:00:05) trapsize 12150
+\i (00:00:05) placementedit 
+\t (00:00:05) axlTrigger disabled!
+\t (00:00:06) axlTrigger disabled!
+\i (00:00:22) artwork 
+\w (00:00:22) Artwork will be rounded down because the database is in MILS with precision 3 requiring artwork precision of 7 decimal places, which is greater than the maximum of 6. Rounding down might result in inaccurate arc coordinates in the output files and possible shape/void plotting failures. For raster artwork formats, artwork accuracy must be at least one place greater than the database accuracy, up to the maximum accuracy allowed by the selected output format. Use GDSII or IPC2581 manufacturing format that support the level of database accuracy set.
+\i (00:00:24) fillin confirm
+\i (00:00:26) setwindow form.film_control
+\i (00:00:26) FORM film_control format_int_places 3 
+\i (00:00:26) FORM film_control film_control  
+\i (00:00:27) FORM film_control select_all  
+\i (00:00:28) FORM film_control filmtree  002.BOT 
+\i (00:00:28) FORM film_control filmtree 'MULTISEL NO' 002.BOT 
+\i (00:00:29) FORM film_control filmtree  001.TOP 
+\i (00:00:29) FORM film_control filmtree 'MULTISEL NO' 001.TOP 
+\i (00:00:31) FORM film_control create  
+\i (00:00:32) fillin yes 
+\t (00:00:32) Checking db records
+\t (00:00:32)     checking for orphans...
+\t (00:00:32)     Checked  56 percent
+\t (00:00:32)     Checked 100 percent
+\t (00:00:32) Done dbdoctor.
+\t (00:00:32) Starting Create artwork films...
+\w (00:00:32) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:00:33) Artwork generated with warnings.
+\i (00:00:34) setwindow text
+\i (00:00:34) close
+\i (00:00:35) setwindow form.film_control
+\i (00:00:35) FORM film_control cancel  
+\i (00:00:35) setwindow pcb
+\i (00:00:35) placementedit 
+\t (00:10:05) Performing autosave...
+\t (00:10:05) Autosave successful
+\i (00:13:21) pick grid 3669.594 276.936
+\t (00:13:21) last pick:  3670.000 277.000
+\i (00:13:21) exit 
+\e (00:13:21) Do you want to save the changes you made to MH18.brd?
+\i (00:13:22) fillin yes 
+   (00:13:22) Loading signal.cxt 
+\t (00:13:23)     Journal end - Thu Feb  1 18:44:59 2024

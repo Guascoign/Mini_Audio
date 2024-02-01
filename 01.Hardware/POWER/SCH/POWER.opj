@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S035 (4083846)  [1/14/2023]-[01/24/24]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[02/01/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -45,7 +45,7 @@
     (DRC_Check_PCB_Footprint_Property "TRUE")
     (DRC_Check_Normal_Convert_View_Sync "TRUE")
     (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
-    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
     (DRC_Check_Missing_Pin_Numbers "TRUE")
     (DRC_Check_Device_With_No_Pins "TRUE")
     (DRC_Check_Power_Ground_Short "TRUE")
@@ -101,16 +101,7 @@
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\power.drc"
-      (Type "Report"))
-    (File ".\allegro\pstxnet.dat"
-      (Type "Report")
-      (DisplayName "pstxnet.dat"))
-    (File ".\allegro\pstxprt.dat"
-      (Type "Report")
-      (DisplayName "pstxprt.dat"))
-    (File ".\allegro\pstchip.dat"
-      (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -124,31 +115,31 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\PROJECTS\Mini_Audio\01.Hardware\POWER\SCH\power.dsn")
-      (Path "Design Resources"
-         "E:\PROJECTS\Mini_Audio\01.Hardware\POWER\SCH\power.dsn" "POWER")
+      (Path "Design Resources" ".\power.dsn")
+      (Path "Design Resources" ".\power.dsn" "POWER")
       (Path "Outputs")
-      (Select "Design Resources"
-         "E:\PROJECTS\Mini_Audio\01.Hardware\POWER\SCH\power.dsn" "POWER"
-         "PAGE1"))
+      (Select "Design Resources" ".\power.dsn" "POWER" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 996"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 268 0 986"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 2155 28 1042")
-        (Scroll "0 3696")
-        (Zoom "400")
+        (Placement "44 0 1 -1 -1 5 28 5 2087 28 1032")
+        (Scroll "0 2291")
+        (Zoom "252")
         (Occurrence "/"))
-      (Path "E:\PROJECTS\MINI_AUDIO\01.HARDWARE\POWER\SCH\POWER.DSN")
+      (Path "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\POWER\SCH\POWER.DSN")
       (Schematic "POWER")
       (Page "PAGE1")))
   (PartMRUSelector
+    (CON_10
+      (FullPartName "CON_10.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+      (DeviceIndex "0"))
     (TVS_Dual
       (FullPartName "TVS_Dual.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")

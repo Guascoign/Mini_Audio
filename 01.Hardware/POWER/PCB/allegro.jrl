@@ -1,0 +1,158 @@
+\t (00:00:03) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Feb  1 18:05:56 2024
+\t (00:00:03)         Host=ITX User=15291 Pid=30040 CPUs=8
+\t (00:00:03) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\POWER\PCB\POWER.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+   (00:00:04) Loading skillExt.cxt 
+   (00:00:04) function addMetadata redefined
+   (00:00:04) function addIndent redefined
+   (00:00:04) function addLine redefined
+   (00:00:04) function addCircle redefined
+   (00:00:04) function addArc redefined
+   (00:00:04) function parseSegment redefined
+   (00:00:04) function addText redefined
+   (00:00:04) function addVia redefined
+   (00:00:04) function lineToSvgPath redefined
+   (00:00:04) function arcToSvgPath redefined
+   (00:00:04) function textToSvgPath redefined
+   (00:00:04) function createSvgPath redefined
+   (00:00:04) function createZone redefined
+   (00:00:04) function addBoardGeometry redefined
+   (00:00:04) function rotateVector redefined
+   (00:00:04) function getBboxSize redefined
+   (00:00:04) function figureToSvgPath redefined
+   (00:00:04) function addPad redefined
+   (00:00:04) function addComponentTable redefined
+   (00:00:04) function addFootprint redefined
+   (00:00:04) function addSymbols redefined
+   (00:00:04) function addCopper redefined
+   (00:00:04) function addNets redefined
+   (00:00:04) function writeJsonFile redefined
+   (00:00:04) function getVariantInfo redefined
+   (00:00:04) function exportJson redefined
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/Projects/Mini_Audio/01.Hardware/POWER/PCB/POWER.brd
+\i (00:00:05) trapsize 11531
+\i (00:00:05) trapsize 11705
+\i (00:00:05) trapsize 11720
+\i (00:00:05) trapsize 11932
+\t (00:00:05) axlTrigger disabled!
+\t (00:00:06) axlTrigger disabled!
+\i (00:00:06) placementedit 
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 1928.938 157.818
+\i (00:00:22) trapsize 5966
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 1928.938 157.818
+\i (00:00:22) trapsize 2983
+\i (00:00:23) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: 002.BOT"
+\i (00:00:23) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: 002.BOT"
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 1637.190 161.994
+\i (00:00:24) trapsize 1492
+\i (00:00:24) roam start
+\i (00:00:24) roam x -16
+\i (00:00:24) roam x -160
+\i (00:00:24) roam y 48
+\i (00:00:24) roam x -32
+\i (00:00:24) roam x -32
+\i (00:00:24) roam x -32
+\i (00:00:24) roam end
+\i (00:00:49) xname_flush 
+\i (00:00:52) xname_flush '!' 
+\i (00:00:52) xname_flush 
+\i (00:00:55) xname_flush '!' 
+\i (00:00:58) xname_flush 
+\i (00:01:02) xname_flush '!' 
+\i (00:01:08) xname_flush '!' 
+\i (00:01:22) xname_flush 
+\i (00:01:24) xname_flush '!' 
+\i (00:01:27) xname_flush 
+\i (00:01:28) xname_flush '!' 
+\i (00:01:29) xname_flush 
+\i (00:01:30) xname_flush '!' 
+\i (00:01:39) xname_flush 
+\i (00:01:40) xname_flush '!' 
+\i (00:01:46) xname_flush 
+\i (00:01:46) xname_flush '!' 
+\i (00:01:47) xname_flush 
+\i (00:01:49) xname_flush '!' 
+\i (00:02:03) xname_flush '!' 
+\i (00:02:11) xname_flush 
+\i (00:02:22) xname_flush '!' 
+\i (00:02:23) xname_flush 
+\i (00:02:30) xname_flush '!' 
+\i (00:02:32) add connect 
+\t (00:02:32) Pick first element.
+\i (00:02:34) add connect 
+\t (00:02:34) Pick first element.
+\i (00:02:39) xname_flush '!' 
+\i (00:02:41) xname_flush 
+\i (00:02:47) xname_flush '!' 
+\i (00:02:47) xname_flush 
+\i (00:02:49) xname_flush '!' 
+\i (00:02:56) pick grid 1864.709 184.295
+\t (00:02:56) last pick:  1864.700 184.300
+\t (00:02:56) last pick:  1864.700 184.300
+\i (00:03:03) xname_flush '!' 
+\i (00:03:08) xname_flush 
+\i (00:03:15) xname_flush '!' 
+\i (00:03:15) xname_flush 
+\i (00:03:19) xname_flush '!' 
+\i (00:03:33) xname_flush 
+\i (00:03:33) xname_flush '!' 
+\i (00:03:34) xname_flush 
+\i (00:03:35) xname_flush '!' 
+\i (00:03:39) xname_flush 
+\i (00:03:39) xname_flush '!' 
+\i (00:03:44) xname_flush 
+\i (00:03:46) xname_flush '!' 
+\i (00:03:46) xname_flush 
+\i (00:03:47) xname_flush '!' 
+\i (00:06:29) xname_flush 
+\i (00:06:35) xname_flush '!' 
+\i (00:07:59) xname_flush 
+\i (00:08:01) xname_flush '!' 
+\i (00:08:06) xname_flush 
+\i (00:08:12) xname_flush '!' 
+\i (00:08:22) xname_flush 
+\i (00:08:23) xname_flush '!' 
+\i (00:08:25) xname_flush 
+\i (00:08:29) xname_flush '!' 
+\w (00:10:04) Save pending
+\i (00:18:17) xname_flush 
+\i (00:18:17) xname_flush '!' 
+\i (00:18:41) xname_flush 
+\i (00:18:42) xname_flush '!' 
+\i (00:18:50) xname_flush 
+\i (00:18:51) xname_flush '!' 
+\i (00:19:32) xname_flush 
+\i (00:19:32) xname_flush 
+\i (00:19:34) xname_flush 
+\i (00:19:35) xname_flush '!' 
+\i (00:19:53) xname_flush 
+\i (00:19:53) xname_flush 
+\i (00:19:54) xname_flush 
+\i (00:20:01) xname_flush '!' 
+\i (00:21:46) zoom out 1 
+\i (00:21:46) setwindow pcb
+\i (00:21:46) zoom out 1626.657 243.658
+\i (00:21:46) trapsize 2983
+\i (00:21:46) zoom out 1 
+\i (00:21:46) setwindow pcb
+\i (00:21:46) zoom out 1672.596 238.289
+\i (00:21:46) trapsize 5966
+\i (00:21:48) done generaledit 
+\t (00:21:48) Performing autosave...
+\t (00:21:48) Autosave successful
+\i (00:21:48) placementedit 
+\i (00:21:48) done generaledit 
+\i (00:21:48) placementedit 
+\i (00:21:48) exit 
+\e (00:21:48) Do you want to save the changes you made to POWER.brd?
+\i (00:21:49) fillin yes 
+\t (00:21:50)     Journal end - Thu Feb  1 18:27:43 2024

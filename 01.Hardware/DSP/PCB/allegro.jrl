@@ -1,0 +1,59 @@
+\t (00:00:06) allegro 17.4 S037 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Thu Feb  1 11:20:40 2024
+\t (00:00:06)         Host=ITX User=15291 Pid=5756 CPUs=8
+\t (00:00:06) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe D:\Projects\Mini_Audio\01.Hardware\DSP\PCB\DSP.brd
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+   (00:00:07) Loading skillExt.cxt 
+   (00:00:07) function addMetadata redefined
+   (00:00:07) function addIndent redefined
+   (00:00:07) function addLine redefined
+   (00:00:07) function addCircle redefined
+   (00:00:07) function addArc redefined
+   (00:00:07) function parseSegment redefined
+   (00:00:07) function addText redefined
+   (00:00:07) function addVia redefined
+   (00:00:07) function lineToSvgPath redefined
+   (00:00:07) function arcToSvgPath redefined
+   (00:00:07) function textToSvgPath redefined
+   (00:00:07) function createSvgPath redefined
+   (00:00:07) function createZone redefined
+   (00:00:07) function addBoardGeometry redefined
+   (00:00:07) function rotateVector redefined
+   (00:00:07) function getBboxSize redefined
+   (00:00:07) function figureToSvgPath redefined
+   (00:00:07) function addPad redefined
+   (00:00:07) function addComponentTable redefined
+   (00:00:07) function addFootprint redefined
+   (00:00:07) function addSymbols redefined
+   (00:00:07) function addCopper redefined
+   (00:00:07) function addNets redefined
+   (00:00:07) function writeJsonFile redefined
+   (00:00:07) function getVariantInfo redefined
+   (00:00:07) function exportJson redefined
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: D:/Projects/Mini_Audio/01.Hardware/DSP/PCB/DSP.brd
+\i (00:00:08) trapsize 14273
+\i (00:00:08) trapsize 14487
+\i (00:00:08) trapsize 14506
+\i (00:00:08) trapsize 14580
+\i (00:00:08) placementedit 
+\t (00:00:09) axlTrigger disabled!
+\i (00:00:09) system explorer 'select,D:`\Program Files`\DianLuJL`\dianlujl.exe' 
+\t (00:00:09) axlTrigger disabled!
+\i (00:00:09) system explorer 'select,D:`\Program Files`\DianLuJL`\dianlujl.exe' 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 3292.948 1340.199
+\i (00:00:09) trapsize 7290
+\i (00:00:11) exportJson 
+   (00:00:11) *WARNING* No variant.lst found, exporting entire design ... 
+\i (00:00:15) fillin confirm
+   (00:00:15) CDS version: 17.400000
+   (00:00:15) "Export complete!"
+\i (00:00:15) placementedit 
+\i (00:00:15) pick grid 2794.303 598.064
+\t (00:00:15) last pick:  2794.000 598.000
+\i (00:00:16) exit 
+\i (00:00:16) system explorer 'select,D:`\Program Files`\DianLuJL`\dianlujl.exe' 
+\t (00:00:16)     Journal end - Thu Feb  1 11:20:50 2024
