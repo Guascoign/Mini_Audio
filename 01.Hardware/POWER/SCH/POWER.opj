@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[02/01/24]")
+  (SoftwareVersion "17.4-2019 S037 (4108587)  [5/20/2023]-[02/28/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -123,19 +123,67 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 268 0 986"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 384 0 986"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 2087 28 1032")
-        (Scroll "0 2291")
-        (Zoom "252")
+        (Placement "44 0 1 -1 -1 5 28 5 1971 28 1032")
+        (Scroll "601 853")
+        (Zoom "126")
         (Occurrence "/"))
       (Path "D:\PROJECTS\MINI_AUDIO\01.HARDWARE\POWER\SCH\POWER.DSN")
       (Schematic "POWER")
       (Page "PAGE1")))
   (PartMRUSelector
+    (MOSFET-N_Dual
+      (FullPartName "MOSFET-N_Dual.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "1"))
+    (CON_6
+      (FullPartName "CON_6.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (SK12D07VG4
+      (FullPartName "SK12D07VG4.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (MOSFET-N
+      (FullPartName "MOSFET-N.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (CE
+      (FullPartName "CE.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
+      (DeviceIndex "0"))
+    (PW2302A
+      (FullPartName "PW2302A.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
+      (DeviceIndex "0"))
+    (ETA3001
+      (FullPartName "ETA3001.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\IC.OLB")
+      (DeviceIndex "0"))
+    (PW4000
+      (FullPartName "PW4000.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
+      (DeviceIndex "0"))
+    (PW6603
+      (FullPartName "PW6603.Normal")
+      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
+      (DeviceIndex "0"))
     (CON_10
       (FullPartName "CON_10.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
@@ -148,20 +196,12 @@
       (FullPartName "CON_2.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\HEADDER.OLB")
       (DeviceIndex "0"))
-    (SK12D07VG4
-      (FullPartName "SK12D07VG4.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\PERIPHERALS.OLB")
-      (DeviceIndex "0"))
     (NTC
       (FullPartName "NTC.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
-      (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
       (LibraryName "D:\CADENCE\LIB\DATABASE\LIB\BASIC.OLB")
       (DeviceIndex "0"))
     (RU30L30M-VB
