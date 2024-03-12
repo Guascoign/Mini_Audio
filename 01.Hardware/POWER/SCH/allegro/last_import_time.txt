@@ -65,3 +65,8 @@
 2024-02-28T16:51:06 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstxprt.dat"
 2024-02-28T16:51:06 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstdmlmodels.dat"
 2024-02-28T16:51:06 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstdedb.cdsz"
+2024-03-04T16:17:50 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstchip.dat"
+2024-03-04T16:17:50 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstxnet.dat"
+2024-03-04T16:17:50 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstxprt.dat"
+2024-03-04T16:17:50 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstdmlmodels.dat"
+2024-03-04T16:17:50 ===> "D:/Projects/Mini_Audio/01.Hardware/POWER/SCH/allegro/pstdedb.cdsz"
